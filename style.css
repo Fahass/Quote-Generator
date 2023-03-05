@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-color: #3e3d3e;
+}
+
+#wrapper {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3e3d3e), to(#656966));
+  background: linear-gradient(#3e3d3e, #656966);
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+@media (max-width: 450px) {
+  #wrapper {
+    padding-top: 3rem;
+  }
+}
+
+#wrapper h1 {
+  margin-bottom: 3rem;
+  color: #fff;
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 450px) {
+  #wrapper h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 395px) {
+  #wrapper h1 {
+    font-size: 2.2rem;
+  }
+}
+
+#wrapper #container {
+  color: #fff;
+  padding: 2rem;
+  border: 2px solid #ffeefc;
+  width: 60%;
+  margin: 0 1rem;
+  margin-bottom: 3.5rem;
+}
+
+@media (max-width: 800px) {
+  #wrapper #container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 690px) {
+  #wrapper #container {
+    padding: 2rem 1rem;
+    width: 100%;
+  }
+}
+
+#wrapper #container #btn {
+  margin-bottom: 2.5rem;
+  padding: .8rem 2rem;
+  border-radius: .4rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#wrapper #container #btn:hover {
+  background-color: #e0e0e0;
+}
+
+#wrapper #container #text {
+  font-size: 1.3rem;
+  margin-top: 1.3rem;
+}
+
+#wrapper #container #text-hd {
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+#wrapper #cr {
+  color: #798088;
+}
+/*# sourceMappingURL=style.css.map */
